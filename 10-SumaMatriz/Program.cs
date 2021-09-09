@@ -20,7 +20,7 @@ namespace _10_SumaMatriz
             C.WriteLine("Filas?");
             filas = Convert.ToInt16(C.ReadLine());
             C.WriteLine("Columnas?");
-            columnas = Convert.ToInt16(C.ReadLine());
+            columnas = Convert.ToInt16(C.ReadLine()); 
             Random aleatorio = new Random();
             int[,] matriz = new int[filas, columnas];
             for (i = 0; i < matriz.GetLength(0); i++)
